@@ -1,0 +1,84 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.main_menu_container {
+    -fx-background-color: #EEEEEE;
+    -fx-alignment: center;
+}
+
+.left_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(two-pass-box, #AAAAAA, 5, 0, 0, 4);
+    
+}
+
+.title_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20 20 0 0;
+    -fx-alignment: top_center;
+    -fx-padding: 10;
+}
+
+.title_container FontAwesomeIconView {
+    -fx-fill: #132A13;
+}
+.title_container text {
+     -fx-fill: #000000 ;
+     
+}
+.menu-container {
+    -fx-padding: 10 10 10 20 ;
+    -fx-spacing: 20 ;
+   
+}
+.menu-container Buttom {
+    -fx-pref-tile-width: 115 ;
+    -fx-pref-tile-height: 40; 
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill : #132A13 ;
+    -fx-alignment: center-left ;
+    -fx-effect: dropshadow(three-pass-box,#000000,5,0,0,6) ;
+        
+}
+.menu-container Button:hover {
+    -fx-cursor: hand ;
+}
+.menu-container Button FontAwesomeIconView {
+    -fx-fill: #132A13 ;
+}
+.alt_menu_btn {
+    -fx-pref-tile-height: 40;
+    -fx-pref-tile-width: 115;
+    -fx-background-color: #132A13 ;
+    -fx-text-fill: #FFFFFF ;
+    -fx-alignment: center-left;
+   
+}
+.alt_menu_btn FontAwesomeIconView {
+    -fx-fill : #FFFFFF ;
+}
+.report_container {
+    -fx-background-color: #EEFFEE ;
+    -fx-background-radius: 10 ;
+    -fx-alignment: center ;
+    -fx-spacing: 10 0 10 0 ;
+}
+.report_container Text {
+    -fx-fill: #132A13 ;
+}
+.report_container label {
+    -fx-text-alignment: center ;
+    
+}
+.report_container button {
+    -fx-background-color: #132A13 ;
+    -fx-fill: #FFFFFF ;
+}
+.report_container Button:hover {
+    -fx-cursor: hand ;
+}
+.report_container Button FontAwesomeIconView {
+    -fx-fill: #FFFFFF ;
+}

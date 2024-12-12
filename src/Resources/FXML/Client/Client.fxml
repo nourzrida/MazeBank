@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="client_parent" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" >
+    <left>
+        <fx:include source="/Resources/FXML/Client/ClientMenu.fxml"/>
+    </left>
+    <center>
+        <fx:include source="/Resources/FXML/Client/Dashboard.fxml"/>
+    </center>
+</BorderPane>
+

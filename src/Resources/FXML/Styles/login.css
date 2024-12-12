@@ -1,0 +1,60 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.LogIn_Container {
+    -fx-background-color: #EEEEEE ;
+
+}
+.logo_logIn_Container {
+    -fx-background-color:  #132A13 ;
+    -fx-alignment: center ;
+    
+}
+.logo_logIn_Container.text {
+    -fx-fill: #FFFFFF ;
+   
+}
+.logo_logIn_Container FontAwesomeIconView {
+     -fx-fill:#ECF39E ;
+}
+.Account_selector {
+    -fx-background-color: #ECF39E ;
+}
+.Account_selector .label {
+    -fx-text-fill:#132A13 ;
+   
+}
+.Account_selector .arrow {
+     -fx-text-fill:#132A13 ;
+    
+}
+#choice-box-popup-menu {
+    -fx-background-color: #ECF39E
+}
+.login-form-container {
+    -fx-spacing: 15 ;
+    -fx-alignment: top-left ;
+}
+.login-form-container label {
+   
+    -fx-font: " bold ";
+}
+.input-field {
+    -fx-background-color: #FFFFFF ;
+     -fx-pref-tile-height: 35 ;
+    
+}
+.login-form-container button {
+     -fx-background-color: #132A13 ;
+     -fx-text-fill:#FFFFFF ;
+     -fx-pref-tile-height: 350 ;
+     -fx-pref-tile-width: 30 ;
+    
+}
+.login-form-container button:hover {
+    -fx-cursor: hand ;
+} 
+.error_lbl{
+ -fx-text-fill:#FF0000;    
+}
